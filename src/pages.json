@@ -1,16 +1,99 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ 
 		{
-			"path": "pages/index/index",
+			"path": "pages/video/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/horizontal/index",
+			"style": {
+				"navigationBarTitleText": "横屏"
+			}
+		},
+		{
+			"path": "pages/videoDetail/index",
+			"style": {
+				"navigationBarTitleText": "视频详情"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		
+		{
+			"path": "pages/album/index",
+			"style": {
+				"navigationBarTitleText": "专辑详情"
+			}
+		},
+		{
+			"path": "pages/imgDetail/index",
+			"style": {
+				"navigationBarTitleText": "图片详情"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "图片分类"
 			}
 		}
+		
 	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/index",
+			"iconPath": "./static/images/apple1_black.png",
+			"selectedIconPath": "./static/images/apple1_red.png",
+			"text": "首页"
+		},{
+			"pagePath": "pages/horizontal/index",
+			"iconPath": "./static/images/apple2_black.png",
+			"selectedIconPath": "./static/images/apple2_red.png",
+			"text": "横屏"
+		},{
+			"pagePath": "pages/video/index",
+			"iconPath": "./static/images/西瓜_black.png",
+			"selectedIconPath": "./static/images/西瓜_red.png",
+			"text": "视频"
+		},{
+			"pagePath": "pages/search/index",
+			"iconPath": "./static/images/樱桃2_black.png",
+			"selectedIconPath": "./static/images/樱桃2_red.png",
+			"text": "搜索"
+		},{
+			"pagePath": "pages/mine/index",
+			"iconPath": "./static/images/樱桃_black.png",
+			"selectedIconPath": "./static/images/樱桃_red.png",
+			"text": "我的"
+		}
+	]
+	},
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "懂你找图",
+		"navigationBarBackgroundColor": "#000",
 		"backgroundColor": "#F8F8F8"
 	}
 }
